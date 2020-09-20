@@ -35,7 +35,7 @@ echo "=================================
 
 "
 
-printf "$red"
+
 
 echo " [1] Termux All Package Installer
 
@@ -55,14 +55,14 @@ echo "[4] Exit
 
 "
 
-echo " [5]
+
 
 echo "=================================
 
 
 "
 
-printf "$green"
+
 
 echo "//////////////////////////////////////"
 
@@ -70,7 +70,10 @@ echo "//////////////////////////////////////"
 read -p ">|" o
 if [ $o = "1" ]
 then
-printf "$blue"
+clear
+
+figlet -f big Wait ......
+
 
 apt update -y
 apt upgrade -y
@@ -104,6 +107,13 @@ apt install wcalc -y
 apt install openssl -y
 apt install bmon -y
 
+clear
+
+figlet -f big Notice ....
+
+
+printf "$blue"
+
 echo " Now Your Terminal Ready For Use 
 =======================================
 author Bhart Sharma 
@@ -131,5 +141,7 @@ pkg install unstable-repo
 
 elif [ $o = "4" ]
 then
+clear
+figlet -f big Exit Code 001 ...
 exit
 fi
