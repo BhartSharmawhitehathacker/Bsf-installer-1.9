@@ -2,21 +2,22 @@
 
 figlet -f big Bsf Installer
 
+printf "$blue"
 
 
-echo " author Bhart Sharma 
+echo " author : Varun sharma : Harsh Sharma
 ----------------------------------------
 
 
 "
 
-echo " Instagram varun_sharSharma4578
+echo " Instagram : ihunny19 
 
 ----------------------------------------
 
 "
 
-echo " You Tube Termux Hacker
+echo " Website : hackerscommunitycentre.blogspot.com/?m=1
 ---------------------------------------
 
 
@@ -34,30 +35,34 @@ echo "=================================
 
 "
 
-echo " 1. Termux All Package Installer
+printf "$red"
+
+echo " [1] Termux All Package Installer
 
 "
 
-echo "2. Follow Me On Instagram 
+echo "[2] Follow Me On Instagram 
 
 "
 
-echo "3. Install Metasploit FrameWork
-
-
-"
-
-echo "4. Exit 
+echo "[3] Install Metasploit FrameWork
 
 
 "
 
+echo "[4] Exit 
 
+
+"
+
+echo " [5]
 
 echo "=================================
 
 
 "
+
+printf "$green"
 
 echo "//////////////////////////////////////"
 
