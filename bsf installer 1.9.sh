@@ -1,6 +1,6 @@
 #!/bin/bash
 
-figlet -f big Bsf Installer
+figlet -f big Bsf Installer 1 ..
 
 printf "$blue"
 
@@ -109,10 +109,11 @@ apt install bmon -y
 
 clear
 
+printf "$blue"
 figlet -f big Notice ....
 
 
-printf "$blue"
+
 
 echo " Now Your Terminal Ready For Use 
 =======================================
@@ -130,6 +131,9 @@ company bsfvenom
 
 elif [ $o = "2" ]
 then
+clear
+figlet -f big Instagram ...
+
 termux-open-url https://www.instagram.com/varun_sharma4578/
 
 elif [ $o = "3" ]
