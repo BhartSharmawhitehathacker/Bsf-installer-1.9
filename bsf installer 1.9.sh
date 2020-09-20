@@ -115,13 +115,13 @@ figlet -f big Notice ....
 
 
 
-echo " Now Your Terminal Ready For Use 
+echo " Now : Your Terminal Ready For Use 
 =======================================
-author Bhart Sharma 
+author : Varun Cyber Group 🎭
 ========================================
-follow On Instagram varun_sharma4578
+follow On Instagram : ihunny19
 ========================================
-company bsfvenom
+Thank YoU . Have  a Good Day 
 ========================================
 
 " 
